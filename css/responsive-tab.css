@@ -1,0 +1,68 @@
+@media screen and (min-width:481px) and (max-width:1024px){
+		
+		#body{ 
+		 padding:0 5%; 
+		 } 
+	
+		header{
+			/* display:flex; */
+			/* justify-content:flex-end; */
+			/* flex-wrap:wrap; */
+			font-size:20px;		
+		}
+		
+		section, footer {
+			max-width:100%;
+		}
+		
+		#title {
+			max-width:100%;
+		}
+		
+		#menu {
+			width:100%;
+			margin:20px 0 40pxbl;
+		}
+		
+		#burger,#fermer{display:block}	
+		
+		#body #menu ul {
+			/* margin-right: -370px; */
+						margin-right: 5px;
+			line-height: 39px;
+			padding-bottom:0;
+			max-width:100%;
+			display:none;
+		}
+		#body:target #menu ul{display:block;}		
+		
+		#logo {
+			width:20%;
+			height:20%;
+		}
+
+
+/***********************************************************/
+
+#blog img, #activite img {
+	width:25vw;
+	height:25vw;
+}
+
+/***********************************************************/
+
+ #culture { 	
+	width:60%; 
+	padding:20px 10px;
+ } 
+ 
+#infos {
+	width:40%;
+	padding:20px 10px;
+}
+
+#infos a {
+	width:30%;
+	padding:20px;
+
+}

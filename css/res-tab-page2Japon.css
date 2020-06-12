@@ -1,0 +1,61 @@
+@media screen and (min-width:481px) and (max-width:1024px){
+		
+		body{ 
+		 padding:0 5%; 
+		 } 
+	
+		header{
+			/* display:flex; */
+			/* justify-content:flex-end; */
+			/* flex-wrap:wrap; */
+			font-size:20px;		
+		}
+		
+		section, footer {
+			max-width:100%;
+		}
+		
+		#title {
+			max-width:100%;
+		}
+		
+		#menu {
+			width:100%;
+			margin:20px 0 40pxbl;
+		}
+		
+		#menu ul {
+			/* margin-right: -370px; */
+			max-width:100%;
+		}
+		
+		
+		#logo {
+			width:20%;
+			height:20%;
+		}
+
+
+	
+		
+/**ARTICLE*******************************************************/
+
+#act {
+	max-width: 98%;
+	margin: 0 auto;
+}
+
+#act img {
+	margin-bottom:10px;
+	width:28vw;
+}
+
+/***********************************************************/
+
+		#link {
+			max-width:100%;
+			margin: 0 auto;
+			text-align:center;
+		}
+
+}
